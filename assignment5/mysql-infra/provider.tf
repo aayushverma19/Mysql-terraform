@@ -11,8 +11,3 @@ provider "aws" {
   region = var.region_name
 }
 
-variable "region_name" {
-  type        = string
-  default     = "us-east-1"
-  description = "enter region name"
-}
