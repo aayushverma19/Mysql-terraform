@@ -1,4 +1,5 @@
 # Networking Variables
+region_name         = "us-east-1"
 vpc_name            = "MySQL-VPC"
 vpc_cidr            = "10.0.0.0/16"
 dns_support         = true
