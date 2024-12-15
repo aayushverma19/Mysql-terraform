@@ -1,3 +1,8 @@
+variable "region_name" {
+  type        = string
+  default     = ""
+  description = "enter region name"
+}
 variable "vpc_name" {
   type        = string
   default     = "MySQL-VPC"
